@@ -1,0 +1,28 @@
+img{
+    width: 30%;
+    border: 3px dotted brown;
+    margin: auto;
+    display: block;
+}
+
+p{
+    background-color: yellow;
+    width: 60%;
+    margin: 10px auto;
+}
+
+div{
+    background-color: lightblue;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black ;
+}
+
+.egysoros{
+    display: inline;
+}
+
+.tobbsoros{
+    display: block;
+    
+}
