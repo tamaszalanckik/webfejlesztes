@@ -1,0 +1,28 @@
+/* CSS comment */
+
+p{
+    color: green; 
+    background-color: white;
+}
+
+ p span{
+    color: blue;
+}
+
+#modern{
+    color:cyan ;
+}
+
+.g{
+    color: black;
+}
+
+body {
+    background-color: bisque;
+}
+
+body>span{ 
+    background-color: greenyellow;
+}
+
+
