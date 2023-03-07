@@ -1,0 +1,22 @@
+#labda{
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1{
+    font-weight: normal;
+}
+
+p{
+    font-size: 20px;
+}
+
+#foci{
+    color: red;
+    /* font-size: 200%; */
+    font-size: 2em;
+    /* kiemelt egység EM: aktuális betűmérethez képes */
+    width: 0.4em;
+    display: inline-block;
+    background-color: lightblue;
+}
