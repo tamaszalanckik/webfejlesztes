@@ -7,7 +7,7 @@ img{
 
 p{
     background-color: yellow;
-    width: 60%;
+    width: 20%;
     margin: 10px auto;
 }
 
@@ -25,4 +25,12 @@ div{
 .tobbsoros{
     display: block;
     
+}
+/* inline block, egysorba kerülnek */
+
+.vegyes{
+    display: inline-block;
+}
+#nincs{
+    display: none;
 }
