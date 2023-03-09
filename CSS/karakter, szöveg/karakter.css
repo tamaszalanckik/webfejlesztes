@@ -8,7 +8,7 @@ h1{
 }
 
 p{
-    font-size: 20px;
+    font-size: 8px;
 }
 
 #foci{
@@ -16,7 +16,29 @@ p{
     /* font-size: 200%; */
     font-size: 2em;
     /* kiemelt egység EM: aktuális betűmérethez képes */
-    width: 0.4em;
+    /* width: 0.4em; */
     display: inline-block;
+    width: 40%;
     background-color: lightblue;
+}
+
+html{
+    font-size: 20px;
+}
+
+#labdajatek{
+    color: blue;
+    /*  rem: root ephemeral  */
+    /* HTML elem */
+    font-size: 2rem;
+}
+
+#usa{
+    font-variant: small-caps;
+}
+
+#ifa{
+    color: purple;
+    font-family: 'Rubik Iso', cursive;
+
 }
