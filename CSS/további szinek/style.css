@@ -1,0 +1,14 @@
+div{
+    background-color: aqua;
+    width: 40%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#doboz1{
+    background-color: rgb(12, 45, 190);
+}
+
+#doboz2{
+    background-color: green;
+}
