@@ -5,6 +5,20 @@
 
 h1{
     font-weight: normal;
+    text-align: center;
+    text-decoration: 1px underline green wavy ;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    background-color: brown;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    padding: 10px
+
 }
 
 p{
@@ -41,4 +55,25 @@ html{
     color: purple;
     font-family: 'Rubik Iso', cursive;
 
+}
+
+p {
+    margin: 40px 0px;
+}
+/* sorköz */
+#masodik{
+    line-height: 1.5em;
+    text-align:center;
+
+}
+
+#sport{
+    letter-spacing: 2em;
+    
+}
+
+#fifa{
+    /* kisbetus nagybetus nagy kezdobetu  */
+    text-transform: uppercase;
+    
 }
