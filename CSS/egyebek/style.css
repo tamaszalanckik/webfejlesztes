@@ -21,6 +21,7 @@ body{
     border: 1px solid black;
     margin-left: 10px;
     box-shadow: 0px 0px 40px  rgb(226, 109, 0);
+    cursor: progress;
 }
 
 img{
@@ -51,13 +52,49 @@ li{
     
 }
 
-#alma{
-    background-color: yellow;
+a{
+    background-color: rgb(199, 199, 0);
     margin: auto;
     text-align: center;
     width: 240px;
     height: fit-content;
     padding: 30px;
     border: 2px solid black;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+}
 
+a:link{
+    color: black;
+}
+
+a:active{
+    background-color: red;
+}
+
+a:hover{
+    opacity: 70%;
+    text-decoration: underline;
+    border: 1px dashed red;
+}
+
+a:visited{
+    color: green;
+}
+
+#táblázat{
+    margin: 0px;
+    margin: auto;
+}
+
+ tr,td, th{
+    background-color: white;
+    width: 160px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 0px;
+    text-align: center;
+    
 }
