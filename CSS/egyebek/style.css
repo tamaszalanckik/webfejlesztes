@@ -122,7 +122,7 @@ td,th{
 body{
     background-image: url(egyebek/fruit_salad.png), url(egyebek/books.png);
     background-repeat: repeat-x, no-repeat;
-    background-position: bottom center , right top;
+    background-position: bottom center , right 20% top 5%;
     background-size: 50px, 101px;
     background-attachment: scroll, fixed;
 }
