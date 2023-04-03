@@ -24,12 +24,12 @@ body{
     cursor: progress;
 }
 
-img{
+/* #book{
     display: inline;
     width: 200px;
     float: right;
     
-}
+} */
 
 #szöveg{
     /* text-indent:  10px; */
@@ -53,7 +53,7 @@ li{
 }
 
 a{
-    background-color: rgb(199, 199, 0);
+    background-color: rgb(231, 231, 12);
     margin: auto;
     text-align: center;
     width: 240px;
@@ -77,7 +77,7 @@ a:active{
 a:hover{
     opacity: 70%;
     text-decoration: underline;
-    border: 1px dashed red;
+    border: 2px dashed red;
 }
 
 a:visited{
@@ -85,16 +85,44 @@ a:visited{
 }
 
 #táblázat{
+    background-color: white;
     margin: 0px;
     margin: auto;
+    border: 1px solid black;
+    padding: 0px;
+    margin-bottom: 40px;
+
+}
+ 
+    tr{
+        padding: 0px;
+        margin: 0px;
+    }
+
+ table{
+    border: 1px solid black;
+    margin: 20px auto; 
+    text-align: center;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    padding: 13px 60px;
+    
+    
 }
 
- tr,td, th{
-    background-color: white;
-    width: 160px;
-    height: 40px;
+td,th{
     border: 1px solid black;
-    margin: 0px;
+    /* padding: 20px; */
+    height: 50px;
+    width: 170px;
     text-align: center;
-    
+    vertical-align: auto;
+}
+
+body{
+    background-image: url(egyebek/fruit_salad.png), url(egyebek/books.png);
+    background-repeat: repeat-x, no-repeat;
+    background-position: bottom center , right top;
+    background-size: 50px, 101px;
+    background-attachment: scroll, fixed;
 }
