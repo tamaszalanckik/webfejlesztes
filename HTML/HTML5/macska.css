@@ -139,6 +139,7 @@ nav a:hover{
     right: -15vw;
     bottom: 2%;
     border-radius: 100px;
+    text-decoration: none;
 }
 
 /* 
@@ -156,3 +157,48 @@ nav a:hover{
 /* 
     Vissza (nincs rajta az "osztaly"): 1 másodperc
 */
+
+@media screen and (max-width: 630px){
+    aside{
+        float: none;
+        width: 100%;
+        margin: auto;
+        margin-left: 0px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 350px){
+    nav a{
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .nem-fontos{
+        display: none;
+    }
+}
+
+@media print {
+    nav {
+        display: none;
+    }
+
+    article{
+        border: none;
+    }
+
+    body{
+        font-size: 4.2em;
+    }
+
+    #tetejere{
+        display: none;
+    }
+}
