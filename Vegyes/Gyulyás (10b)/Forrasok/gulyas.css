@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255, 149, 107);
+}
+
+table{
+    width: 90%;
+}
+
+.leiras {
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 25px;
+    background-color: rgba(250, 235, 215, 70%);
+    font-style: italic;
+    padding: 3%;
+    border: 2px solid black;
+    
+}
+
+h1 {
+    color: rgb(255, 149, 107);
+    text-shadow: 4px 4px 1px black;
+    text-align: center;
+}
+
+.kepkeret {
+    background-color: white;
+    clear: both;
+    border: 5px rgb(255, 149, 107) solid;
+    text-align: center;
+    font-style: italic;
+    border-radius: 25px;
+    float: right;
+}
+
+img {
+    border-radius: 20px;
+    display: block;
+}
+
+table {
+    margin: auto;
+}
+
+td, th {
+    border: 2px black solid;
+    text-align: center;
+}
+
+h1 a {
+    text-decoration: none;
+    color: rgb(255, 149, 107);
+    text-shadow: 4px 4px 1px black;
+}
+
+.nav a {
+    color: red;
+    font-style:normal;
+    transition: all 1s;
+}
+
+.nav a:hover{
+    background-color: rgb(255, 149, 107);
+}
+
+.nav a:hover {
+    border-radius: 10px;
+}
