@@ -1,0 +1,97 @@
+body {
+    color: black;
+    background-size: 100%;
+    padding: 1% 8%;
+    background-image: url(images/graduation.png);
+    background-repeat: repeat-y;
+    z-index: 200;
+}
+
+h1, h2{
+    margin: 3%;
+    font-family: Impact, sans-serif;
+    text-align: center;
+}
+
+ul{
+    list-style-type: square;
+    line-height: 2em;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+footer p{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 90%;
+    left: 92%;
+    z-index: 1;
+}
+
+section {
+    padding: 10px;
+    overflow: auto;
+    background-color: rgba(250, 250, 250, 90%);
+}
+
+header img {
+    max-width: 200px;
+}
+
+img{
+    width: 400px;
+    margin: auto;
+}
+
+a{
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:visited{
+   color:  #5a3c5a; 
+}
+
+a:hover{
+    color:  #5a3c5a;
+    text-decoration: underline 1px dashed black;
+}
+
+tr, td, th{
+    border: 1px solid blue;   
+}
+
+#sapka{
+    width: 3em;
+    margin-left: 20px;
+    display: inline;
+}
+
+.termud{
+    font-style: italic;
+}
+
+@media screen and (max-width: 576px) {
+    #sapka{
+        display: none;
+    }
+
+    li{
+        padding: 0;
+    }
+
+    ul li{
+        display: inline;
+        margin: 10px;
+    }
+}
